@@ -21,7 +21,7 @@ spec:
   gateways:
   - bookinfo-gateway
   hosts:
-  - "istio-ingressgateway-istio-system.apps.cluster-vnr6z.vnr6z.sandbox2253.opentlc.com"
+  - "*"
   http:
   - match:
     - uri:
